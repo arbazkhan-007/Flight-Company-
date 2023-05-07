@@ -1,0 +1,25 @@
+1. Write down the Python Code:
+
+A flight company has to schedule a journey of N groups of people from the same source to the
+same destination. Here, A1, A2, ..., AN represents the number of people in each group. All
+groups are present at the source. The flight company has M planes where B1, B2, ..., Bm
+represents the capacity of each plane.
+
+You are required to send all groups to destination with the following conditions:
+
+1. Each plane can travel from the Source to Destination with only one group at a time such
+that the capacity of a plane is enough to accommodate all people in that group.
+2. All people belonging to the same group travel together.
+3. Every plane can make multiple journeys between source and destination.
+4. It costs 1 unit of time to travel between source to destination and vice versa.
+Note: Multiple planes can fly together and also it is not necessary for planes to end their journey
+at the source.
+Determine the minimum time required to send all groups from the source to the destination.
+Input: The number of groups N, the people in each group, the number planes M, and the capacity
+of each plan
+
+For example, N = 4 and M = 3.
+8, 1, 6, 9 are the number of people in each of the 4 groups
+7, 3, 2 is the capacity of each plane of 3 planes
+
+Output: The minimum time required to send all the groups to the destination
